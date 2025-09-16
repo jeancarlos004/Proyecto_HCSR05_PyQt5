@@ -1,0 +1,23 @@
+Conexiones ESP32 + HC-SR05 + LCD I2C + LEDs + Pulsadores
+
+- HC-SR05:
+  - VCC → 5V
+  - GND → GND
+  - TRIG → GPIO 5
+  - ECHO → GPIO 18
+
+- LCD I2C:
+  - VCC → 5V
+  - GND → GND
+  - SDA → GPIO 21
+  - SCL → GPIO 22
+
+- LEDs:
+  - LED1 → GPIO 23 (con resistencia 220Ω)
+  - LED2 → GPIO 19 (con resistencia 220Ω)
+  - LED3 → GPIO 4 (con resistencia 220Ω)
+
+- Pulsadores (pull-down con resistencia 10kΩ):
+  - BTN1 → GPIO 15
+  - BTN2 → GPIO 2
+  - BTN3 → GPIO 13
